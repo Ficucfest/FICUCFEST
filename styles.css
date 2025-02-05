@@ -297,7 +297,7 @@ a .subtexto {
 .banner, .banner a {
     
     position: relative;
-    background-image: url(/1INICIO/css_code/img/B_BANNER.png);
+    background-image: url(/B_BANNER.png);
     background-size: contain; /* La imagen cubrirá todo el contenedor sin distorsionarse */
     background-repeat: no-repeat;
     background-position: center; /* Mantener la imagen centrada */
