@@ -326,6 +326,11 @@ h1 h2 {
     .seccion p {
         font-size: 1.4rem; /* Ajustamos el tamaño del texto */
     }
+    /* Reducir el tamaño de los iconos de redes sociales */
+    .redes-sociales a svg {
+        width: 24px;  /* Ajusta el tamaño según tus necesidades */
+        height: 24px; /* Ajusta el tamaño según tus necesidades */
+    }
 }
 
    

@@ -283,6 +283,12 @@ a .subtexto {
         z-index: -1;  /* El banner queda debajo del menú */
         
     }
+  
+    .redes-sociales a svg {
+        width: 24px;  /* Ajusta el tamaño según tus necesidades */
+        height: 24px; /* Ajusta el tamaño según tus necesidades */
+    }
+
 }
 
 
