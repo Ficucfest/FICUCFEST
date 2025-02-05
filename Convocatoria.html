@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festival Internacional de Cine de la Universidad Central</title>
-    <link rel="preload" href="/Encuentros/normalize" as="style">
-    <link rel="stylesheet" href="/Encuentros/normalize">
+    <link rel="preload" href="normalize" as="style">
+    <link rel="stylesheet" href="normalize">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preload" href="/Encuentros/Encuentros.css" as="style">
- <link href="/Encuentros/Encuentros.css" rel="stylesheet">
+    <link rel="preload" href="Convocatoria.css" as="style">
+ <link href="Convocatoria.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -22,7 +22,7 @@
                 <a href="https://youtube.com/@ficucfest?feature=shared" class="icono instagram" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="40" height="40" stroke-width="2"> <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z"></path> <path d="M10 9l5 3l-5 3z"></path> </svg>  </a>
             </div>
 
-        <img src="/1INICIO/css_code/img/FICUC logo.png" alt="Título de la Página" class="titulo-imagen">
+        <img src="FICUC logo.png" alt="Título de la Página" class="titulo-imagen">
         <p class="texto-bajo">Del 27 al 31 de Octubre de 2025</p>
 
         </div>
@@ -44,59 +44,46 @@
         <!-- Contenedor de los enlaces (estará oculto en pantallas pequeñas) -->
         <div class="enlaces" id="enlaces">
 
-            <a href="/1INICIO/index.html">Inicio</a>
-            <a href="/Programacion/Programacion.html">Programación</a>
-            <a href="/Academico/Academico.html">Acádemico</a>
-            <a href="/Seleccion Oficial/Seleccion-oficial.html">Selección Oficial</a>
-            <a href="/Equipoficuc/Equipo-Ficuc.html">Equipo</a>
-            <a href="/Convocatoria/Convocatoria.html">Convocatoria</a>
-            <a href="/Trayectoria/Nuestra-Trayectoria.html">Nuestra Trayectoria</a>
+            <a href="index.html">Inicio</a>
+            <a href="Programacion.html">Programación</a>
+            <a href="Academico.html">Acádemico</a>
+            <a href="Encuentros.html">Encuentros</a>
+            <a href="Seleccion-oficial.html">Selección Oficial</a>
+            <a href="Equipo-Ficuc.html">Equipo</a>
+            <a href="Nuestra-Trayectoria.html">Nuestra Trayectoria</a>
         
 
 </nav>
 
 </div>
-    </main>
+</main>
+
+<!-- Título "Programación 2024" -->
+<h1> Estamos trabajando para poder darles una gran bienvenida a nuestra OCTAVA edición 2025 :) </h1>
+
+<!-- Contenedor de las secciones con imágenes -->
+    <!-- Sección 1 -->
+    <div class="seccion">
+        <img src="360_F_558028124_NurhYBRfrHF3dWCwYZRtxENXKvhu25GC.jpg" alt="Imagen 1">
+        <p> </p>
+    </div>
+    
+
+</div>
+<script>
+// Obtener el ícono del menú y los enlaces
+const menuHamburguesa = document.getElementById('menu-hamburguesa');
+const enlaces = document.getElementById('enlaces');
+
+// Función para mostrar/ocultar los enlaces al hacer clic en el ícono
+menuHamburguesa.addEventListener('click', () => {
+enlaces.classList.toggle('show');  // Alterna la clase 'show'
+});
+</script>
 
 
-<h1>Networking Estudiantil</h1>
-        
-                <!-- Contenedor de las secciones con imágenes -->
-                    <!-- Sección 1 -->
-                    <div class="seccion">
-                        <img src="/Encuentros/imgencu/NETWORKING.png" alt="Imagen 1">
-                        <p> </p>
-                    </div>
-
-                    <h2>Concierto</h2>
-                    <!-- Sección 2 -->
-                    <div class="seccion">
-                        <img src="/Encuentros/imgencu/Pieza Concierto 1 NOV.jpg" alt="Imagen 1">
-                        <p> </p>
-                    </div>
-
-                    <h3>Museo Nacional</h3>
-                    <!-- Sección 2 -->
-                    <div class="seccion">
-                        <img src="/Encuentros/imgencu/INTERVINIENDO EL MUSEO.png" alt="Imagen 1">
-                        <p> </p>
-                    </div>
-                
-            </div>
-        <script>
-        // Obtener el ícono del menú y los enlaces
-        const menuHamburguesa = document.getElementById('menu-hamburguesa');
-        const enlaces = document.getElementById('enlaces');
-        
-        // Función para mostrar/ocultar los enlaces al hacer clic en el ícono
-        menuHamburguesa.addEventListener('click', () => {
-            enlaces.classList.toggle('show');  // Alterna la clase 'show'
-        });
-        </script>
-        
-        
-        <footer>
-        <p> Pagina no oficial de la Universidad Central</p>
-        </footer>
-        </body>
-        </html> 
+<footer>
+<p> Pagina no oficial de la Universidad Central</p>
+</footer>
+</body>
+</html> 
