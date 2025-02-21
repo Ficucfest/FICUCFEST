@@ -331,6 +331,18 @@ h1, h2, h3 {
         width: 24px;  /* Ajusta el tamaño según tus necesidades */
         height: 24px; /* Ajusta el tamaño según tus necesidades */
     }
+    .redes-sociales {
+        flex-direction: row;
+        align-items: center;
+        position: static; /* Para que no se superponga con otros elementos */
+        margin-bottom: 20px; /* Espacio entre los iconos y el título */
+    }
+
+    .icono {
+        margin-bottom: 0; /* Espacio entre iconos */
+        width: 20px; /* Ajusta el tamaño según tus necesidades */
+        height: 20px; /* Ajusta el tamaño según tus necesidades */
+    }
 }
 
    

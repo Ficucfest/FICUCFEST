@@ -237,6 +237,7 @@ a .subtexto {
         z-index: -1;  /* Esto asegura que el banner quede por debajo del menú */
         position: relative;
     }
+   
     .redes-sociales {
         flex-direction: row;
         align-items: center;
@@ -303,6 +304,10 @@ a .subtexto {
         
     }
   
+    .redes-sociales a svg {
+        width: 24px;  /* Ajusta el tamaño según tus necesidades */
+        height: 24px; /* Ajusta el tamaño según tus necesidades */
+    }
     .redes-sociales {
         flex-direction: row;
         align-items: center;
