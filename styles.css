@@ -246,6 +246,8 @@ a .subtexto {
 
     .icono {
         margin-bottom: 0; /* Espacio entre iconos */
+        width: 30px; /* Ajusta el tamaño según tus necesidades */
+        height: 30px; /* Ajusta el tamaño según tus necesidades */
     }
 
     .contenedor-titulo {
@@ -310,6 +312,8 @@ a .subtexto {
 
     .icono {
         margin-bottom: 0; /* Espacio entre iconos */
+        width: 30px; /* Ajusta el tamaño según tus necesidades */
+        height: 30px; /* Ajusta el tamaño según tus necesidades */
     }
 
     .contenedor-titulo {
