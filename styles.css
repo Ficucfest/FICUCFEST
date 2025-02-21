@@ -284,10 +284,16 @@ a .subtexto {
         
     }
   
-    .redes-sociales a svg {
-        width: 24px;  /* Ajusta el tamaño según tus necesidades */
-        height: 24px; /* Ajusta el tamaño según tus necesidades */
+    .redes-sociales {
+        flex-direction: column;
+        top: 50px; /* Ajusta la posición según sea necesario */
+        right: 10px; /* Ajusta la posición según sea necesario */
     }
+
+    .icono {
+        margin-bottom: 10px; /* Espacio entre iconos */
+    }
+}
 
 }
 
