@@ -457,11 +457,17 @@ a .subtexto {
     }
 }
 .contenedor-imagenes {
+    display: flex;
+    justify-content: center;
     overflow-x: auto;
     white-space: nowrap;
     width: 100%;
     box-sizing: border-box;
     padding: 10px 0;
+}
+.imagenes {
+    display: flex;
+    align-items: center;
 }
 
 .imagenes img {
@@ -469,7 +475,9 @@ a .subtexto {
     width: 90%; /* Ajusta el tamaño según tus necesidades */
     height: auto;
     margin-right: 10px;
+    border-radius: 10px; /* Bordes ligeramente redondeados */
 }
+
 
 @media (max-width: 768px) {
     .imagenes img {
