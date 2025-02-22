@@ -38,7 +38,7 @@ header {
     align-items: center;
     padding-left: 0;
     padding-top: 0;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     background-color: var(--blanco);
     border-radius: 10px;
 }
@@ -74,13 +74,13 @@ header {
 
 .texto-bajo {
     font-size: 15px;
-    color: #333333;;
+    color: #333333;
     margin-top: 10px;
     font-weight: normal;
     text-align: center;
 }
 
-h1 {
+h1, h2, h3 {
     font-size: 3.8rem;
     text-align: center;
     color: var(--segundo);
