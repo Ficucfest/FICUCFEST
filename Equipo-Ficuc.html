@@ -101,17 +101,7 @@ menuHamburguesa.addEventListener('click', () => {
 enlaces.classList.toggle('show');  // Alterna la clase 'show'
 });
 
-// Scroll snapping
-const contenedorImagenes = document.querySelector('.contenedor-imagenes');
-    contenedorImagenes.addEventListener('scroll', () => {
-        const scrollLeft = contenedorImagenes.scrollLeft;
-        const width = contenedorImagenes.clientWidth;
-        const index = Math.round(scrollLeft / width);
-        contenedorImagenes.scrollTo({
-            left: index * width,
-            behavior: 'smooth'
-        });
-    });
+
 </script>
 
 

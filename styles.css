@@ -392,6 +392,7 @@ a .subtexto {
 .contenedor-imagenes {
     display: flex;
     overflow-x: auto;
+    scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     width: 100%;
     box-sizing: border-box;
