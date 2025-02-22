@@ -458,9 +458,8 @@ a .subtexto {
 }
 .contenedor-imagenes {
     display: flex;
-    justify-content: center;
     overflow-x: auto;
-    white-space: nowrap;
+    scroll-snap-type: x mandatory;
     width: 100%;
     box-sizing: border-box;
     padding: 10px 0;
@@ -472,8 +471,9 @@ a .subtexto {
 
 .imagenes img {
     display: inline-block;
-    width: 90%; /* Ajusta el tamaño según tus necesidades */
+    width: 90vw; /* Ajusta el tamaño según tus necesidades */
     height: auto;
+    scroll-snap-align: center;
     margin-right: 10px;
     border-radius: 10px; /* Bordes ligeramente redondeados */
 }
@@ -481,12 +481,12 @@ a .subtexto {
 
 @media (max-width: 768px) {
     .imagenes img {
-        width: 95%; /* Ajusta el tamaño para pantallas más pequeñas */
+        width: 90vw; /* Ajusta el tamaño para pantallas más pequeñas */
     }
 }
 
 @media (max-width: 480px) {
     .imagenes img {
-        width: 100%; /* Ajusta el tamaño para pantallas muy pequeñas */
+        width: 95vw; /* Ajusta el tamaño para pantallas muy pequeñas */
     }
 }
