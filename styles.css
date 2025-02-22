@@ -466,19 +466,19 @@ a .subtexto {
 
 .imagenes img {
     display: inline-block;
-    width: 200px; /* Ajusta el tamaño según tus necesidades */
+    width: 90%; /* Ajusta el tamaño según tus necesidades */
     height: auto;
     margin-right: 10px;
 }
 
 @media (max-width: 768px) {
     .imagenes img {
-        width: 150px; /* Ajusta el tamaño para pantallas más pequeñas */
+        width: 95%; /* Ajusta el tamaño para pantallas más pequeñas */
     }
 }
 
 @media (max-width: 480px) {
     .imagenes img {
-        width: 100px; /* Ajusta el tamaño para pantallas muy pequeñas */
+        width: 100%; /* Ajusta el tamaño para pantallas muy pequeñas */
     }
 }
