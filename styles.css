@@ -318,7 +318,7 @@ a .subtexto {
 /* Estilos básicos del banner */
 .banner, .banner a {
     position: relative;
-    background-image: url(En\ nuestro\ cine\ creemos.png);
+    background-image: url(Ennuestrocinecreemos.png);
     background-size: contain; /* La imagen cubrirá todo el contenedor sin distorsionarse */
     background-repeat: no-repeat;
     background-position: center; /* Mantener la imagen centrada */
