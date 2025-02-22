@@ -396,8 +396,7 @@ a .subtexto {
     width: 100%;
     box-sizing: border-box;
     padding: 10px 0;
-    margin-left: 5vw; /* Margen izquierdo */
-    margin-right: 5vw; /* Margen derecho */
+
 
 }
 .imagenes {
@@ -409,8 +408,6 @@ a .subtexto {
     display: inline-block;
     width: 90vw; /* Ajusta el tamaño según tus necesidades */
     height: auto;
-    margin-right: 10px;
-    margin-left: 10px;
     border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 /* Media Queries */
