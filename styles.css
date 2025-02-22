@@ -410,6 +410,7 @@ a .subtexto {
     width: 90vw; /* Ajusta el tamaño según tus necesidades */
     height: auto;
     margin-right: 10px;
+    margin-left: 10px;
     border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 /* Media Queries */
