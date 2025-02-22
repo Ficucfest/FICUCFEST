@@ -243,6 +243,13 @@ a .subtexto {
         width: 20px; /* Ajusta el tamaño según tus necesidades */
         height: 20px; /* Ajusta el tamaño según tus necesidades */
     }
+    .imagen-ancha {
+        width: 90%; /* Ajusta el tamaño según tus necesidades */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
 }
 
 /* Para pantallas muy pequeñas, podemos hacer ajustes */
@@ -288,6 +295,13 @@ h1 h2 {
     margin-top: 40px; /* Espacio encima del título */
     margin-bottom: 40px; /* Espacio debajo del título */
 }
+.imagen-ancha {
+    width: 90%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
 
 /* Estilos para el contenedor de las secciones */
 
@@ -318,6 +332,13 @@ h1 h2 {
     font-weight: bold;
     color: var(--primero);
 }
+.imagen-ancha {
+    width: 90%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
 
 /* Media Queries */
 
@@ -327,7 +348,15 @@ h1 h2 {
     .contenedor-secciones {
         grid-template-columns: 1fr; /* Una sola columna */
     }
+    .imagen-ancha {
+        width: 90%; /* Ajusta el tamaño según tus necesidades */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
 }
+
 
 /* Para pantallas muy pequeñas (menores a 480px) */
 @media (max-width: 480px) {
@@ -355,5 +384,12 @@ h1 h2 {
         margin-bottom: 0; /* Espacio entre iconos */
         width: 20px; /* Ajusta el tamaño según tus necesidades */
         height: 20px; /* Ajusta el tamaño según tus necesidades */
+    }
+    .imagen-ancha {
+        width: 90%; /* Ajusta el tamaño según tus necesidades */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Centra la imagen horizontalmente */
     }
 }
