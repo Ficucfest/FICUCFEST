@@ -322,7 +322,7 @@ a .subtexto {
     background-size: contain; /* La imagen cubrirá todo el contenedor sin distorsionarse */
     background-repeat: no-repeat;
     background-position: center; /* Mantener la imagen centrada */
-    background-attachment: fixed; /* Asegura que la imagen no se mueva con el scroll */
+    background-attachment: fixed; /* Asegur    git push origin mastera que la imagen no se mueva con el scroll */
     width: 100%;
     height: auto; /* La altura se ajusta automáticamente según la imagen */
     min-height: 700px; /* Altura mínima para evitar que se haga demasiado pequeña */
