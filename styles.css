@@ -396,6 +396,9 @@ a .subtexto {
     width: 100%;
     box-sizing: border-box;
     padding: 10px 0;
+    margin-left: 5vw; /* Margen izquierdo */
+    margin-right: 5vw; /* Margen derecho */
+
 }
 .imagenes {
     display: flex;
@@ -404,7 +407,7 @@ a .subtexto {
 
 .imagenes img {
     display: inline-block;
-    width: 100vw; /* Ajusta el tamaño según tus necesidades */
+    width: 90vw; /* Ajusta el tamaño según tus necesidades */
     height: auto;
     margin-right: 10px;
     border-radius: 10px; /* Bordes ligeramente redondeados */
@@ -412,7 +415,7 @@ a .subtexto {
 /* Media Queries */
 
 /* Para pantallas pequeñas (menores a 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     /* Ajustar el diseño de las secciones a una columna en pantallas pequeñas */
     .contenedor-secciones {
         grid-template-columns: 1fr; /* Una sola columna */
