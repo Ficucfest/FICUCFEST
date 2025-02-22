@@ -31,7 +31,6 @@ header {
     margin-top: 20px; /* Espacio encima del título */
 }
 
-
 .contenedor-titulo {
     display: flex;
     justify-content: flex-start;
@@ -43,7 +42,6 @@ header {
     background-color: var(--blanco);
     border-radius: 10px;
 }
-
 
 .redes-sociales {
     position: absolute;
@@ -86,10 +84,7 @@ h1 {
     font-size: 3.8rem;
     text-align: center;
     color: var(--segundo);
-    
-
 }
-
 
 span { 
     font-size: 2rem;
@@ -126,8 +121,6 @@ span {
     color: var(--segundo);
     border-radius: .5rem;
 }
-
-
 
 .navegacion-principal, .contenido-banner a {
     background-color: var(--segundo);
@@ -177,9 +170,6 @@ a .subtexto {
     color: rgb(255, 255, 255);
 }
 
-
-
-
 /* Media Queries */
 /* Media Queries para pantallas pequeñas (menores a 480px) */
 /* Estilos para el menú desplegable */
@@ -188,7 +178,6 @@ a .subtexto {
     .menu-hamburguesa {
         display: block;
         color: var(--blanco);
-        
     }
 
     /* Ocultar los enlaces en pantallas pequeñas */
@@ -212,7 +201,6 @@ a .subtexto {
     .enlaces.show {
         display: flex;
         transform: translateY(0);  /* El menú se mueve hacia abajo */
-        
     }
 
     /* Ajustes para los enlaces dentro del menú desplegable */
@@ -256,7 +244,6 @@ a .subtexto {
         flex-direction: column;
         align-items: center;
     }
-
 }
 
 /* Para pantallas muy pequeñas, podemos hacer ajustes */
@@ -294,14 +281,12 @@ a .subtexto {
         flex-grow: 1;
     }
 
-
     .banner, .banner a {
         position: relative;
         background-size: contain;
         min-height: 200px;
         margin-top: 0;  /* Ajustamos el margen superior */
         z-index: -1;  /* El banner queda debajo del menú */
-        
     }
   
     .redes-sociales a svg {
@@ -328,20 +313,10 @@ a .subtexto {
     }
 }
 
-
-
-
-
-
 /* Para pantallas grandes (escritorios) */
 
-
-
-
 /* Estilos básicos del banner */
-
 .banner, .banner a {
-    
     position: relative;
     background-image: url(B_BANNER.png);
     background-size: contain; /* La imagen cubrirá todo el contenedor sin distorsionarse */
@@ -354,10 +329,10 @@ a .subtexto {
     margin-top: 10px;
     box-shadow: none;
     border-radius: 1rem;
-  }
+}
   
-  /* Capa oscura que aparece al pasar el cursor */
-  .banner a::before {
+/* Capa oscura que aparece al pasar el cursor */
+.banner a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -368,11 +343,10 @@ a .subtexto {
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none; /* Para que el hover no interfiera con el contenido */
- 
-  }
+}
   
-  /* El título que aparece al pasar el cursor */
-  .contenido-banner  {
+/* El título que aparece al pasar el cursor */
+.contenido-banner  {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -381,8 +355,104 @@ a .subtexto {
     font-size: 24px;
     opacity: 0;
     transition: opacity 0.3s ease;
-  }
-  
- 
-  
-  
+}
+
+/* Estilo para cada sección */
+.seccion {
+    background-color: var(--blanco);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.seccion img {
+    width: 100%;          /* Hace que la imagen ocupe todo el ancho disponible de su contenedor */
+    max-width: 400px;     /* Limita el ancho máximo de la imagen */
+    height: auto;         /* Mantiene la proporción de la imagen */
+    margin: 0 auto;       /* Centra la imagen si es más pequeña que el contenedor */
+}
+
+.seccion p {
+    padding: 10px;
+    font-size: 2rem;
+    font-stretch: extra-condensed;
+    font-weight: bold;
+    color: var(--primero);
+}
+
+.imagen-ancha {
+    width: 90%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Media Queries */
+
+/* Para pantallas pequeñas (menores a 1024px) */
+@media (max-width: 1024px) {
+    /* Ajustar el diseño de las secciones a una columna en pantallas pequeñas */
+    .contenedor-secciones {
+        grid-template-columns: 1fr; /* Una sola columna */
+    }
+    .imagen-ancha {
+        width: 90%; /* Ajusta el tamaño según tus necesidades */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+}
+
+/* Para pantallas muy pequeñas (menores a 480px) */
+@media (max-width: 480px) {
+    /* Ajustes adicionales para pantallas más pequeñas */
+    .contenedor-secciones {
+        grid-template-columns: 1fr; /* Aseguramos una sola columna */
+    }
+
+    .seccion p {
+        font-size: 1.4rem; /* Ajustamos el tamaño del texto */
+    }
+    /* Reducir el tamaño de los iconos de redes sociales */
+    .redes-sociales a svg {
+        width: 24px;  /* Ajusta el tamaño según tus necesidades */
+        height: 24px; /* Ajusta el tamaño según tus necesidades */
+    }
+    .redes-sociales {
+        flex-direction: row;
+        align-items: center;
+        position: static; /* Para que no se superponga con otros elementos */
+        margin-bottom: 20px; /* Espacio entre los iconos y el título */
+    }
+
+    .icono {
+        margin-bottom: 0; /* Espacio entre iconos */
+        width: 20px; /* Ajusta el tamaño según tus necesidades */
+        height: 20px; /* Ajusta el tamaño según tus necesidades */
+    }
+    .imagen-ancha {
+        width: 90%; /* Ajusta el tamaño según tus necesidades */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1025px) {
+    .imagen-izquierda {
+        float: left;
+        width: 45%; /* Ajusta el tamaño según tus necesidades */
+        margin-right: 5%;
+    }
+
+    .imagen-derecha {
+        float: right;
+        width: 45%; /* Ajusta el tamaño según tus necesidades */
+        margin-left: 5%;
+    }
+}
