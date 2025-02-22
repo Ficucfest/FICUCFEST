@@ -169,7 +169,27 @@ a .subtexto {
     font-size: 15px;
     color: rgb(255, 255, 255);
 }
+.contenedor-imagenes {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 90%; /* Ajusta el tamaño máximo del contenedor */
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.imagenes {
+    display: flex;
+    align-items: center;
+}
 
+.imagenes img {
+    display: inline-block;
+    width: 90vw; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    border-radius: 10px; /* Bordes ligeramente redondeados */
+}
 /* Media Queries */
 /* Media Queries para pantallas pequeñas (menores a 480px) */
 /* Estilos para el menú desplegable */
@@ -389,28 +409,7 @@ a .subtexto {
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
-.contenedor-imagenes {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    width: 90%;
-    box-sizing: border-box;
-    padding: 10px 0;
-    margin-left: 5%; /* Margen izquierdo */
-    margin-right: 5%; /* Margen derecho */
 
-}
-.imagenes {
-    display: flex;
-    align-items: center;
-}
-
-.imagenes img {
-    display: inline-block;
-    width: 90vw; /* Ajusta el tamaño según tus necesidades */
-    height: auto;
-    border-radius: 10px; /* Bordes ligeramente redondeados */
-}
 /* Media Queries */
 
 /* Para pantallas pequeñas (menores a 1024px) */
