@@ -482,12 +482,12 @@ a .subtexto {
 
 @media (max-width: 768px) {
     .imagenes img {
-        width: 100vw; /* Ajusta el tamaño para pantallas más pequeñas */
+        width: 100%; /* Ajusta el tamaño para pantallas más pequeñas */
     }
 }
 
 @media (max-width: 480px) {
     .imagenes img {
-        width: 100vw; /* Ajusta el tamaño para pantallas muy pequeñas */
+        width: 100%; /* Ajusta el tamaño para pantallas muy pequeñas */
     }
 }
