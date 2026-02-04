@@ -178,16 +178,7 @@ a .subtexto {
     box-sizing: border-box;
     padding: 10px 0;
     margin: 0 auto; /* Centra el contenedor horizontalmente */
-}
-.contenedor-imagenes a {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    width: auto;
-    max-width: 60%; /* Ajusta el tamaño máximo del contenedor */
-    box-sizing: border-box;
-    padding: 10px 0;
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+
 }
 .imagenes {
     display: flex;
